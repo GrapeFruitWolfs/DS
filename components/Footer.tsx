@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2021 {config.author}</div>
+      <div className={styles.copyright}>Copyright 2021 {/* {config.author} */}<a href="https://www.notion.so/GrapeWolf-s-1ea3aa9d6c39413ba8e430f21dcfc80c/">Notion Home Page</a></div>
 
       {hasMounted ? (
         <div className={styles.settings}>
